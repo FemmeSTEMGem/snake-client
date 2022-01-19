@@ -7,7 +7,7 @@ const connect = function() {
   });
 
   conn.on('connect', () =>{
-    conn.write("Name: SHH");
+    conn.write("Say: Hellooooo");
   
     console.log("Connection established!");
     
